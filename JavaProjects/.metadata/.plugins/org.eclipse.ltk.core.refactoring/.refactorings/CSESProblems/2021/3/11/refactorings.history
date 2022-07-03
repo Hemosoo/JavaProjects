@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;_1621&apos; to &apos;distinctnumbers&apos;&#x0D;&#x0A;- Original project: &apos;CSESProblems&apos;&#x0D;&#x0A;- Original element: &apos;_1621&apos;&#x0D;&#x0A;- Renamed element: &apos;distinctnumbers&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;_1621&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{_1621.java[_1621" matchStrategy="1" name="distinctnumbers" qualified="false" references="true" similarDeclarations="false" stamp="1615266286509" textual="false" version="1.0"/>
+</session>

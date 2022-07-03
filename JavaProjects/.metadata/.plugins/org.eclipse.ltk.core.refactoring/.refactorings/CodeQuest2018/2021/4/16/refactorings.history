@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;out.txt&apos; to &apos;CodeQuest2018&apos;" description="Move &apos;out.txt&apos; to &apos;CodeQuest2018&apos;" destination="/CodeQuest2018" element1="src/out.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1618177075630" updateReferences="true"/>
+</session>

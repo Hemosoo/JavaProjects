@@ -1,0 +1,12 @@
+import java.util.*;
+public class rut {
+	public static void main(String[] args) {
+		
+	}
+	public static void init() {
+		
+	}
+	public static void solve() {
+		
+	}
+}

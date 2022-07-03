@@ -1,0 +1,71 @@
+import java.util.*;
+
+import java.io.*;
+public class B {
+	static int a, b, x, y;
+	static FastReader s;
+	static class FastReader {
+		BufferedReader in;
+		StringTokenizer st;
+		public FastReader() throws IOException {
+			in = new BufferedReader(new InputStreamReader(System.in));
+			
+		}
+		String next() { 
+            while (st == null || !st.hasMoreElements()) 
+            { 
+                try { 
+                    st = new StringTokenizer(in.readLine()); } 
+                catch (IOException  e) { 
+                    e.printStackTrace(); 
+                } 
+            } 
+            return st.nextToken(); 
+        } 
+		int nextInt() {
+			return Integer.parseInt(next());
+		}
+	}
+	public static void main(String[] args) throws IOException {
+		s = new FastReader();
+		init();
+		solve();
+	}
+	public static void init() {
+		a = s.nextInt();
+		b = s.nextInt();
+		x = s.nextInt();
+		y = s.nextInt();
+	}
+	public static void solve() {
+		int bis = 5;
+		int ans = 0;
+		int xd = a-x;
+		int yd = b-y;
+		if(xd%2 == yd%2) {
+			bis = 2;
+		}
+		if(Math.abs(xd)-Math.abs(yd) == 0) {
+			bis = 1;
+		}
+		//System.out.println(bis);
+		int[] dx = {2, 2, -2, -2, 1, 1, -1, -1};
+		int[] dy = {1, -1, 1, -1, 2, -2, 2, -2};
+		int kni = 3;
+			for(int i = 0; i < 8; i++) {
+				int tx = x+dx[i];
+				int ty = y+dy[i];
+				if(tx == a && ty == b) {
+					kni = 1;
+					break;
+				} else if(Math.abs(tx-a) == Math.abs(ty-b)) {
+					kni = Math.min(2, kni);
+				} else if(Math.abs(tx-a) == Math.abs(ty-b)) {
+					
+				}
+			}
+		ans = Math.min(kni, bis);
+		
+		System.out.println(ans);
+	}
+}

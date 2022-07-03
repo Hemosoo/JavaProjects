@@ -1,0 +1,10 @@
+import java.io.*;
+
+public class cownredo {
+	public static void main(String[] args) throws IOException {
+		in = new BufferedReader(new InputStreamReader(System.in));
+		init();
+		solve();
+		in.close();
+	}
+}

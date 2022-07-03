@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Codewars2_25&apos;" deleteContents="true" description="Delete resource &apos;Codewars2_25&apos;" element1="/Codewars2_25" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1645849167073"/>&#x0A;<refactoring comment="Rename resource &apos;Codewars3_5_2022&apos; to &apos;Codewars2_26_2022&apos;" description="Rename resource &apos;Codewars3_5_2022&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Codewars3_5_2022" name="Codewars2_26_2022" stamp="1645891558056" updateReferences="true"/>
+</session>

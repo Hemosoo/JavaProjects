@@ -1,0 +1,59 @@
+import java.util.*;
+import java.io.*;
+public class E {
+	static FastReader s;
+	static int n;
+	static ArrayList<Integer> nums;
+	static class FastReader {
+		BufferedReader in;
+		StringTokenizer st;
+		public FastReader() throws IOException {
+			in = new BufferedReader(new InputStreamReader(System.in));
+			
+		}
+		String next() { 
+            while (st == null || !st.hasMoreElements()) 
+            { 
+                try { 
+                    st = new StringTokenizer(in.readLine()); } 
+                catch (IOException  e) { 
+                    e.printStackTrace(); 
+                } 
+            } 
+            return st.nextToken(); 
+        } 
+		int nextInt() {
+			return Integer.parseInt(next());
+		}
+	}
+	public static void main(String[] args) throws IOException {
+		s = new FastReader();
+		init();
+		solve();
+	}
+	public static void init() {
+		n = s.nextInt();
+		nums = new ArrayList<Integer>();
+		for(int i = 0; i < n; i++) {
+			int t = s.nextInt();
+			if(nums.contains(t)) continue;
+			nums.add(s.nextInt());
+		}
+	}
+	public static void solve() {
+		int cnt = 0;
+		for(int i = 0; i < n; i++) {
+			for(int j = i; j < n; j++) {
+				if(i==j) continue;
+				int x = nums.;
+				int y = nums[j];
+				if(x >= y && x%y==0) {
+					cnt++;
+				} else {
+					if(y%x == 0) cnt++;
+				}
+			}
+		}
+		System.out.println(cnt);
+	}
+}

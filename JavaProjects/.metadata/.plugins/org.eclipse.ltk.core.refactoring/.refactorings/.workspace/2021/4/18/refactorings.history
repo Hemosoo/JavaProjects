@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;satvocclass&apos; to &apos;anything&apos;" description="Rename resource &apos;satvocclass&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/satvocclass" name="anything" stamp="1619471518511" updateReferences="true"/>
+</session>

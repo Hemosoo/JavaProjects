@@ -1,0 +1,59 @@
+import java.util.*;
+
+import java.io.*;
+public class D {
+	static FastReader s;
+	static class FastReader {
+		BufferedReader in;
+		StringTokenizer st;
+		public FastReader() throws IOException {
+			in = new BufferedReader(new InputStreamReader(System.in));
+			
+		}
+		String next() { 
+            while (st == null || !st.hasMoreElements()) 
+            { 
+                try { 
+                    st = new StringTokenizer(in.readLine()); } 
+                catch (IOException  e) { 
+                    e.printStackTrace(); 
+                } 
+            } 
+            return st.nextToken(); 
+        } 
+		int nextInt() {
+			return Integer.parseInt(next());
+		}
+	}
+	public static void main(String[] args) throws IOException {
+		s = new FastReader();
+		init();
+		solve();
+	}
+	public static void init() {
+		String n = s.nextInt()+"";
+		ArrayList<Integer> num = new ArrayList<Integer>();
+		num.add(1);
+		num.add(3);
+		num.add(5);
+		num.add(9);
+		String ans = "";
+		boolean g = false;
+		for(int i = 0; i < n.length(); i++) {
+			int t = Integer.parseInt(n.charAt(i)+"");
+			for(int j = 0; j < num.size(); j++) {
+				if(num.get(j) > t) {
+					ans += num.get(j);
+					g = true;
+				} else if(num.get(j) == t) {
+					ans += t;
+				} else {
+					
+				}
+			}
+		}
+	}
+	public static void solve() {
+		
+	}
+}

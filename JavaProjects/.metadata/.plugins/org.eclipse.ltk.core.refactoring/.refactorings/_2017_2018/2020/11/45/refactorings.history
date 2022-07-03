@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;convention2.in&apos; to &apos;_2017_2018&apos;" description="Move &apos;convention2.in&apos; to &apos;_2017_2018&apos;" destination="/_2017_2018" element1="src/convention2.in" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1604382042701" updateReferences="true"/>
+</session>

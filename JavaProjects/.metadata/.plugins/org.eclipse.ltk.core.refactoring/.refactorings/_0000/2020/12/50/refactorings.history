@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;DFS30&apos; to &apos;BFS30&apos;&#x0D;&#x0A;- Original project: &apos;_0000&apos;&#x0D;&#x0A;- Original element: &apos;DFS30&apos;&#x0D;&#x0A;- Renamed element: &apos;BFS30&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DFS30&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{DFS30.java[DFS30" matchStrategy="1" name="BFS30" qualified="false" references="true" similarDeclarations="false" stamp="1607743334285" textual="false" version="1.0"/>
+</session>

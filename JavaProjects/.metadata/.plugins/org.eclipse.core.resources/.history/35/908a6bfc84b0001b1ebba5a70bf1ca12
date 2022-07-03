@@ -1,0 +1,33 @@
+import java.util.*;
+
+
+
+import java.io.*;
+public class A {
+	static BufferedReader in;
+	static int r, b, d;
+	
+	public static void main(String[] args) throws IOException {
+		r = 0;
+		b = 0;
+		d = 0;
+		FastReader s = new FastReader();
+		int n = Integer.parseInt(s.next());
+		for(int i = 0; i < n; i++) {
+			init();
+			solve();
+		}
+	}
+	public static void init() {
+		r =6
+		
+	}
+	public static void solve() {
+		if(Math.abs(r-b) <= d) {
+			System.out.println("yes");
+		} else {
+			System.out.println("no");
+		}
+	}
+}
+

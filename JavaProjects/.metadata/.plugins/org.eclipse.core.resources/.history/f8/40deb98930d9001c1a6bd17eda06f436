@@ -1,0 +1,54 @@
+import java.util.*;
+
+import java.io.*;
+public class ProbA {
+	static int n, r, c;
+	static String[][] g;
+	static FastReader s;
+	static class FastReader {
+		BufferedReader in;
+		StringTokenizer st;
+		public FastReader() throws IOException {
+			in = new BufferedReader(new InputStreamReader(System.in));
+			
+		}
+		String nextLine() throws IOException {
+			return in.readLine();
+		}
+		String next() { 
+            while (st == null || !st.hasMoreElements()) 
+            { 
+                try { 
+                    st = new StringTokenizer(in.readLine()); } 
+                catch (IOException  e) { 
+                    e.printStackTrace(); 
+                } 
+            } 
+            return st.nextToken(); 
+        } 
+		int nextInt() {
+			return Integer.parseInt(next());
+		}
+	}
+	public static void main(String[] args) throws IOException {
+		s = new FastReader();
+		init();
+		solve();
+	}
+	public static void init() throws IOException {
+		n = s.nextInt();
+		r = s.nextInt();
+		c = s.nextInt();
+		g = new String[n][n];
+		for(int i = 0; i < n; i++) {
+			String[] l = s.nextLine().split(" ");
+			for(int j = 0; j < n; j++) {
+				g[i][j] = l[j]+"";
+			}
+		}
+		
+	}
+	public static void solve() {
+		System.out.println(Arrays.deepToString(g));
+	}
+}

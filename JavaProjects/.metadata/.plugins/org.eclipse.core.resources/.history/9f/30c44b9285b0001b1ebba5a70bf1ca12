@@ -1,0 +1,36 @@
+import java.util.*;
+
+
+
+import java.io.*;
+public class A {
+	static BufferedReader in;
+	static int r, b, d, n;
+	
+	public static void main(String[] args) throws Exception {
+		r = 0;
+		b = 0;
+		d = 0;
+		BufferedReader in  = new BufferedReader(new InputStreamReader(System.in));
+		n = Integer.parseInt(in.readLine());
+		init();
+
+	}
+	public static void init() throws Exception, IOException {
+		for(int i = 0; i < n; i++ ) {
+			
+		}
+		r = Integer.parseInt(in.readLine());
+		b = Integer.parseInt(in.readLine());
+		d = Integer.parseInt(in.readLine());
+		
+	}
+	public static void solve() {
+		if(Math.abs(r-b) <= d) {
+			System.out.println("yes");
+		} else {
+			System.out.println("no");
+		}
+	}
+}
+
